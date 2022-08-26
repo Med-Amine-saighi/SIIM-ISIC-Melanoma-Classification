@@ -1,0 +1,178 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.1
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.7.12
+    start_time: 1660621210.068252
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 54
+      - 55
+      - 63
+      - 80
+      2:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 54
+      - 55
+      - 63
+      - 80
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.7.12
+      5: 0.13.1
+      8:
+      - 1
+      - 2
+      - 5
+apex:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 128
+cosanneal_params:
+  desc: null
+  value:
+    T_max: 10
+    eta_min: 5.0e-05
+    last_epoch: -1
+cosanneal_res_params:
+  desc: null
+  value:
+    T_0: 10
+    T_mult: 1
+    eta_min: 1.0e-06
+    last_epoch: -1
+debug:
+  desc: null
+  value: false
+early_stop:
+  desc: null
+  value: true
+early_stopping_steps:
+  desc: null
+  value: 5
+easy_margin:
+  desc: null
+  value: false
+epochs:
+  desc: null
+  value: 15
+fc_dim:
+  desc: null
+  value: 512
+grad_cam:
+  desc: null
+  value: false
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+lr:
+  desc: null
+  value: 0.0001
+ls_eps:
+  desc: null
+  value: 0.0
+margin:
+  desc: null
+  value: 0.5
+max_grad_norm:
+  desc: null
+  value: 1000
+model_name:
+  desc: null
+  value: efficientnet_b0
+momentum:
+  desc: null
+  value: 0.9
+nfolds:
+  desc: null
+  value: 5
+num_workers:
+  desc: null
+  value: 2
+onecycle_params:
+  desc: null
+  value:
+    div_factor: 10.0
+    epochs: 3
+    max_lr: 0.001
+    pct_start: 0.1
+    steps_per_epoch: 3
+preds_col:
+  desc: null
+  value:
+  - AK
+  - BCC
+  - BKL
+  - DF
+  - SCC
+  - VASC
+  - melanoma
+  - nevus
+  - unknown
+print_freq:
+  desc: null
+  value: 100
+reduce_params:
+  desc: null
+  value:
+    eps: 1.0e-06
+    factor: 0.2
+    mode: min
+    patience: 5
+    verbose: true
+scale:
+  desc: null
+  value: 30.0
+scheduler:
+  desc: null
+  value: CosineAnnealingLR
+seed:
+  desc: null
+  value: 42
+size:
+  desc: null
+  value: 256
+smoothing:
+  desc: null
+  value: 0.05
+t1:
+  desc: null
+  value: 0.3
+t2:
+  desc: null
+  value: 1.0
+target_size:
+  desc: null
+  value: 9
+train:
+  desc: null
+  value: true
+trn_folds:
+  desc: null
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+weight_decay:
+  desc: null
+  value: 0.0001
