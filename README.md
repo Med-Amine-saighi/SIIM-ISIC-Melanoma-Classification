@@ -14,3 +14,4 @@ unzip -q jpeg-isic2019-jpeg-isic2019-256x256.zip -d JPEG Melanoma 2019 256x256
 # Train Model:
 python train.py
 ```
+You can run the [notebook](https://github.com/Med-Amine-saighi/SIIM-ISIC-Melanoma-Classification/blob/main/melanoma-pytorch-train-bceloss.ipynb) to showcase the training process.
