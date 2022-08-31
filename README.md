@@ -16,7 +16,7 @@ python train.py
 ```
 You can run the [notebook](https://github.com/Med-Amine-saighi/SIIM-ISIC-Melanoma-Classification/blob/main/melanoma-pytorch-train-bceloss.ipynb) to showcase the training process.
 
-### Quik OverView on the Model Architecture :
+### OverView of the Model Architecture :
 ![](https://github.com/Med-Amine-saighi/SIIM-ISIC-Melanoma-Classification/blob/main/figures/Model%20Architecure.PNG)
 
 
